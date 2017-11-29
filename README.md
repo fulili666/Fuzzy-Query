@@ -3,7 +3,7 @@
 ## Demo链接
 
 - [demo地址](https://htmlpreview.github.io/?https://github.com/zc95/Fuzzy-Query/blob/master/index.html)
-- [github地址](https://github.com/zc95/Fuzzy-Queryt)
+- [github地址](https://github.com/zc95/Fuzzy-Query)
 
 
 

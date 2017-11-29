@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="myCSS.css">
+  <style type="text/css">
+  	body {
+  height: 1000px;
+  font-family:微软雅黑;
+}
+#contaniner{
+  width:90%;
+  margin:auto;
+}
+input {
+  text-indent: 8px;
+  height: 30px;
+  width: 258px;
+}
+  </style>
+</head>
+<body>
+<div id="contaniner">
+<form id="myform" autocomplete="off">
+  <input class="filter_input" placeholder="请输入名称" type="text" id="Name"/>
+</form>
+</div>
+
+
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="myJS.js"></script>
+<script>
+$(function() {
+  getFilters('Name',msg);//动态获取input联想的内容（前面一个参数是input的id，后面一个参数是json字符串）
+})
+//获取设备 这里用ajax获取后台数据 我这边写死
+   msg=[{"name":"苏州大学"},{"name":"北京大学"},{"name":"南京大学"},{"name":"清华大学"},{"name":"复旦大学"},{"name":"浙江大学"},{"name":"上海交通大学"},{"name":"武汉大学"},{"name":"中国人民大学"},{"name":"中国科学技术大学"},{"name":"北京师范大学"}];
+    
+
+
+</script>
+</body>
+</html>

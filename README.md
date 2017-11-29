@@ -1,6 +1,6 @@
 文本框模糊匹配(纯html+css+jquery简单实现) ，自己写的一个小组件。
 
-## Demo链接
+## 链接
 
 - [demo地址](https://htmlpreview.github.io/?https://github.com/zc95/Fuzzy-Query/blob/master/index.html)
 - [github地址](https://github.com/zc95/Fuzzy-Query)
